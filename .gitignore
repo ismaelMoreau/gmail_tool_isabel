@@ -1,0 +1,66 @@
+# Ignore Python bytecode files
+*.py[cod]
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and databases
+*.log
+*.sqlite3
+
+# Ignore compiled files and libraries
+*.so
+*.dll
+*.dylib
+*.bin
+*.o
+*.a
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg-info/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore credentials file
+credentials.json
+
+# Ignore token files
+token.json
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+*.coveragerc
+
+# Ignore pytest cache
+.cache/
