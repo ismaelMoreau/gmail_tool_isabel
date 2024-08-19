@@ -64,3 +64,6 @@ coverage/
 
 # Ignore pytest cache
 .cache/
+
+# Ignore fetched attachements
+attachments/
